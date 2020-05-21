@@ -1,0 +1,15 @@
+initscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+
+  dependencies {
+    classpath("org.springframework.boot:spring-boot-gradle-plugin:2.2.0.RELEASE")
+  }
+}
+
+allprojects {
+  apply plugin: org.springframework.boot.gradle.plugin.SpringBootPlugin
+}
