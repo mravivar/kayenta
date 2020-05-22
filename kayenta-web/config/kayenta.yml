@@ -1,5 +1,5 @@
 server:
-  port: 4080
+  port: 8090
 
 redis:
   connection: ${services.redis.baseUrl:redis://localhost:6379}
