@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+set -e
+set -x
 
 #
 # Copyright 2015 the original author or authors.
